@@ -1,0 +1,17 @@
+{
+  "name": "experiment_testing_manual",
+  "version": "1.0.0",
+  "main": "script.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  }
+}
